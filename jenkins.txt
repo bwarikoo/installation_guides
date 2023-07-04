@@ -10,3 +10,7 @@ Steps to install Jenkins on an Ubuntu machine.
 8. sudo systemctl enable jenkins
 9. sudo systemctl start jenkins
 10.sudo systemctl status jenkins
+
+NOTE:
+Make sure that port 8080 is open and accessible from internet. 
+You can access your Jenkins instance at http://<serverpublicIP>:8080. It will ask you to unlock Jenkins: go to this file location /var/lib/jenkins/secrets/initialAdminPassword and copy the password to unlock your instance.
